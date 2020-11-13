@@ -103,6 +103,6 @@ class Post extends Resource
      */
     public static function redirectAfterUpdate(NovaRequest $request, $resource)
     {
-        return '/resources/users/'.$resource->user_id.'/edit';
+        return '/resources/users/2/edit';
     }
 }
